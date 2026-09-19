@@ -1,0 +1,6 @@
+{"id": "q1", "question": "Through which portal should the manufacturer or sponsor submit the Form CT-04 application?", "expected_page": 4, "expected_answer_contains": ["SUGAM", "NSWS"], "answerable": true}
+{"id": "q2", "question": "If new rules are published after this guidance, which one takes precedence?", "expected_page": 4, "expected_answer_contains": ["new rules", "prevail"], "answerable": true}
+{"id": "q3", "question": "What is the document number and version for the Clinical Trial Application guidance?", "expected_page": 2, "expected_answer_contains": ["CT/032024", "1.2"], "answerable": true}
+{"id": "q4", "question": "What duration is mentioned for the accelerated stability data on pilot scale batches?", "expected_page": 9, "expected_answer_contains": ["3 months"], "answerable": true}
+{"id": "q5", "question": "Is a stability study duration of 90 days mentioned for the accelerated stability data?", "expected_page": 9, "expected_answer_contains": ["3 months", "90"], "answerable": true}
+{"id": "q6", "question": "What is the recommended dosage of paracetamol for adults?", "expected_page": null, "expected_answer_contains": [], "answerable": false}

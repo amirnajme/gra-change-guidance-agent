@@ -1,0 +1,6 @@
+chroma_db/
+logs/
+eval/results_*.json
+__pycache__/
+*.pyc
+.streamlit/

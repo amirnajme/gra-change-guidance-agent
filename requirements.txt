@@ -1,0 +1,9 @@
+anthropic
+langchain-core
+langchain-anthropic
+langgraph
+chromadb
+pymupdf
+sentence-transformers
+streamlit
+pydantic
