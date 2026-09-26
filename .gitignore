@@ -1,6 +1,6 @@
 chroma_db/
-logs/
+data/
+uploads/
 eval/results_*.json
 __pycache__/
 *.pyc
-.streamlit/

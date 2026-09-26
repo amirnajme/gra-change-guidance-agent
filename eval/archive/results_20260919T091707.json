@@ -1,0 +1,73 @@
+{
+  "cases": [
+    {
+      "id": "q1",
+      "question": "Through which portal should the manufacturer or sponsor submit the Form CT-04 application?",
+      "answerable": true,
+      "answer": "The manufacturer/sponsor should submit the Form CT-04 application online through the SUGAM / NSWS portal.",
+      "confidence": 75,
+      "hit": true,
+      "groundedness": true,
+      "relevance_score": 95,
+      "reason": "The answer correctly identifies the SUGAM/NSWS portal, matching the expected reference terms, though it cites page 5 instead of the expected page 4, which is a minor discrepancy but likely adjacent content."
+    },
+    {
+      "id": "q2",
+      "question": "If new rules are published after this guidance, which one takes precedence?",
+      "answerable": true,
+      "answer": "According to the guidance, whenever new rules are published, the new rules will prevail over (take precedence over) this guidance.",
+      "confidence": 95,
+      "hit": true,
+      "groundedness": true,
+      "relevance_score": 95,
+      "reason": "The answer correctly states that new rules published after the guidance will prevail, matching the expected answer content and citing page 4 as expected."
+    },
+    {
+      "id": "q3",
+      "question": "What is the document number and version for the Clinical Trial Application guidance?",
+      "answerable": true,
+      "answer": "The Clinical Trial Application guidance (\"Guidance for Industry on Submission of Clinical Trial Application for Evaluating Safety and Efficacy (Biologicals)\") is identified as Document No. CT/032024, Version 1.2.",
+      "confidence": 95,
+      "hit": true,
+      "groundedness": true,
+      "relevance_score": 100,
+      "reason": "The answer correctly provides the document number CT/032024 and version 1.2, matching the expected reference, and cites page 2 among sourced pages."
+    },
+    {
+      "id": "q4",
+      "question": "What duration is mentioned for the accelerated stability data on pilot scale batches?",
+      "answerable": true,
+      "answer": "The accelerated stability data on pilot scale batches is specified as covering a duration of 3 months.",
+      "confidence": 90,
+      "hit": true,
+      "groundedness": true,
+      "relevance_score": 100,
+      "reason": "Answer correctly states 3 months duration, matching expected answer, and cites page 9 among others."
+    },
+    {
+      "id": "q5",
+      "question": "Is a stability study duration of 90 days mentioned for the accelerated stability data?",
+      "answerable": true,
+      "answer": "I couldn't find a clearly supported answer to this in the guidance document.",
+      "confidence": 0,
+      "hit": false,
+      "groundedness": false,
+      "relevance_score": 0,
+      "reason": "The system failed to retrieve any content or cite any pages, and did not provide the expected answer referencing '3 months' or '90 days' from page 9, despite the question being answerable from the document."
+    },
+    {
+      "id": "q6",
+      "question": "What is the recommended dosage of paracetamol for adults?",
+      "answerable": false,
+      "answer": "I couldn't find a clearly supported answer to this in the guidance document.",
+      "confidence": 0,
+      "hit": false,
+      "groundedness": true,
+      "relevance_score": 100,
+      "reason": "The question is marked as not expected to be answerable from the document, and the system correctly declined to answer, citing no pages, consistent with the expected outcome."
+    }
+  ],
+  "hit_rate": 0.6666666666666666,
+  "groundedness_rate": 0.8333333333333334,
+  "avg_relevance": 81.66666666666667
+}

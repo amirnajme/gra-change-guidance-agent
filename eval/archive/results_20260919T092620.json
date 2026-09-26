@@ -1,0 +1,73 @@
+{
+  "cases": [
+    {
+      "id": "q1",
+      "question": "Through which portal should the manufacturer or sponsor submit the Form CT-04 application?",
+      "answerable": true,
+      "answer": "The manufacturer/sponsor should submit the Form CT-04 application online through the SUGAM / NSWS portal.",
+      "confidence": 75,
+      "hit": true,
+      "groundedness": true,
+      "relevance_score": 95,
+      "reason": "The answer correctly identifies the SUGAM/NSWS portal as required, matching the expected answer, though the cited page (5) differs slightly from the expected page (4), likely due to adjacent content covering the same topic."
+    },
+    {
+      "id": "q2",
+      "question": "If new rules are published after this guidance, which one takes precedence?",
+      "answerable": true,
+      "answer": "According to the guidance, whenever new rules are published, the new Rules will prevail over (take precedence over) this guidance.",
+      "confidence": 95,
+      "hit": true,
+      "groundedness": true,
+      "relevance_score": 95,
+      "reason": "Answer correctly states new rules prevail over the guidance, matching expected reference and citing page 4 among others."
+    },
+    {
+      "id": "q3",
+      "question": "What is the document number and version for the Clinical Trial Application guidance?",
+      "answerable": true,
+      "answer": "The Guidance for Industry on Submission of Clinical Trial Application for Evaluating Safety and Efficacy (Biologicals) has Document No. CT/032024, Version \u2013 1.2.",
+      "confidence": 98,
+      "hit": true,
+      "groundedness": true,
+      "relevance_score": 100,
+      "reason": "Answer correctly provides the document number CT/032024 and version 1.2, matching the expected reference, and cites the correct page (2) among others."
+    },
+    {
+      "id": "q4",
+      "question": "What duration is mentioned for the accelerated stability data on pilot scale batches?",
+      "answerable": true,
+      "answer": "The accelerated stability data on pilot scale batches is required for a duration of 3 months, as stated in the sections on \"Accelerated Stability Data (3 months) on pilot scale batches.\"",
+      "confidence": 95,
+      "hit": true,
+      "groundedness": true,
+      "relevance_score": 98,
+      "reason": "The answer correctly identifies '3 months' as the duration, matching the expected reference, and cites page 9 which is the expected page."
+    },
+    {
+      "id": "q5",
+      "question": "Is a stability study duration of 90 days mentioned for the accelerated stability data?",
+      "answerable": true,
+      "answer": "Yes. The document mentions \"Accelerated Stability Data (3 months) on pilot scale batches,\" and 3 months is mathematically equivalent to 90 days (assuming standard 30-day months).",
+      "confidence": 80,
+      "hit": true,
+      "groundedness": true,
+      "relevance_score": 90,
+      "reason": "The answer correctly identifies the 3-month accelerated stability data mentioned on page 9, matching the expected reference, and reasonably equates it to 90 days."
+    },
+    {
+      "id": "q6",
+      "question": "What is the recommended dosage of paracetamol for adults?",
+      "answerable": false,
+      "answer": "I couldn't find a clearly supported answer to this in the guidance document.",
+      "confidence": 0,
+      "hit": false,
+      "groundedness": true,
+      "relevance_score": 100,
+      "reason": "The question is marked as not expected to be answerable from the document, and the system correctly declined to answer, citing no pages and expressing zero confidence, which is the appropriate response."
+    }
+  ],
+  "hit_rate": 0.8333333333333334,
+  "groundedness_rate": 1.0,
+  "avg_relevance": 96.33333333333333
+}

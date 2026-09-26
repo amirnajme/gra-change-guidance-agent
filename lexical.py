@@ -8,7 +8,7 @@ import re
 from collections import Counter
 from functools import lru_cache
 
-from config import get_chroma_collection
+from vectorstore import get_all_chunks
 
 _TOKEN_RE = re.compile(r"[a-z0-9]+")
 K1 = 1.5
@@ -56,10 +56,9 @@ class BM25Index:
         return sorted(scores.items(), key=lambda kv: kv[1], reverse=True)[:n]
 
 
-@lru_cache(maxsize=1)
-def get_bm25_index() -> BM25Index:
-    collection = get_chroma_collection()
-    items = collection.get(include=["documents"])
-    doc_ids = items["ids"]
-    doc_tokens = [_tokenize(doc) for doc in items["documents"]]
+@lru_cache(maxsize=8)
+def get_bm25_index(doc_id: str) -> BM25Index:
+    chunks = get_all_chunks(doc_id)
+    doc_ids = [c.id for c in chunks]
+    doc_tokens = [_tokenize(c.text) for c in chunks]
     return BM25Index(doc_ids, doc_tokens)
